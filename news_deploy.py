@@ -63,4 +63,4 @@ for index, article in enumerate(articles):
     st.markdown("---")
 
 # Footer
-st.markdown("<footer style='text-align: center; padding-top: 20px;'>Made with ❤️ by Mera News Team</footer>", unsafe_allow_html=True)
+st.markdown("<footer style='text-align: center; padding-top: 20px;'>Made By: Manas Pandey </footer>", unsafe_allow_html=True)
