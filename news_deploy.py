@@ -12,7 +12,7 @@ DEFAULT_IMAGE_URL = 'https://www.hhireb.com/wp-content/uploads/2019/08/default-n
 
 # Fetch news articles
 def get_news():
-    url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}"
+    url = f"https://newsapi.org/v2/top-headlines?sources=the-times-of-india&apiKey={API_KEY}"
     response = requests.get(url)
     if response.status_code == 200:
         return response.json().get('articles', [])
